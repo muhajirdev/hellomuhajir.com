@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  color: #fff;
+  line-height: normal;
+  font-family: 'Nunito', sans-serif;
+}
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Nunito', sans-serif;
+}
+.heading {
+  padding: 30% 5%;
+}
+.heading > h1 {
+  font-size: 2.1em;
+  font-weight: 700;
+}
+.heading > h2 {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.heading > hr{
+  background-color: #fff;
+  height: 2px;
+}
+@media screen and (min-width: 48em){
+  .heading {
+    padding: 10% 4%;
+  }
+  .heading > h1 {
+    font-size: 3.5em;
+  }
+  .heading > h2 {
+    font-size: 2.6em;
+  }
+}
+.section-full {
+  padding: 70px;
+}
+.section-half {
+  padding: 70px 0;
+}
+
+/*#section-1 {
+  background-color: #16a085;
+}
+#section-2 {
+  background-color: #e74c3c;
+}
+#section-3 {
+  background-color: #34495e;
+}*/
+footer {
+  padding: 50px 40px;
+  background-color: #2c3e50;
+  color: rgba(255,255,255,0.6);
+}
+#section-3 input, #section-3 textarea {
+  background-color: #2c3e50;
+  box-shadow: none;
+  border: 2px solid #2c3e50;
+  resize: none;
+  padding: .75em .6em;
+}
+#section-3 input:focus, #section-3 textarea:focus {
+  border: 2px solid #3498db;
+}#section-3 input:invalid, #section-3 textarea:invalid {
+  color: #fff;
+}
+#section-3 textarea {
+  min-height: 150px;
+}
+.button-send {
+  background-color: #95a5a6;
+}
+.or {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+.turquoise {
+  background-color: #1abc9c
+}
+.green-sea {
+  background-color: #16a085
+}
+.emerald {
+  background-color: #2ecc71
+}
+.nephirits {
+  background-color: #27ae60;
+}
+.sun-flower {
+  background-color: #f1c40f;
+}
+.carrot {
+  background-color: #e67e22;
+}
+.orange {
+  background-color: #f39c12;
+}
+.pumpkin {
+  background-color: #d35400;
+}
+.peter-river {
+  background-color: #3498db;
+}
+.belize-hole {
+  background-color: #2980b9;
+}
+.alizarin {
+  background-color: #e74c3c;
+}
+.pomgranate {
+  background-color: #c0392b;
+}
+.amethyst {
+  background-color: #9b59b6;
+}
+.awisteria {
+  background-color: #8e44ad;
+}
+.clouds {
+  background-color: #ecf0f1;
+}
+.silver {
+  background-color: #bdc3c7;
+}
+.wet-asphalt {
+  background-color: #34495e;
+}
+.midnight-blue {
+  background-color: #2c3e50;
+}
+.concrete {
+  background-color: #95a5a6;  
+}
+.asbestos {
+  background-color: #7f8c8d;
+}
+#section-3 {
+  padding: none;
+}
+
+.section-title {
+  font-size: 2em;
+  line-height: normal;
+}
+.section-half-content {
+  margin: 0 70px;
+}
+.contact-info {
+  padding: .75em .6em;
+  border-radius: 3px;
+  margin: 1.3em 0;
+}
+.contact-list > li > a {
+  text-decoration: none;
+  color: #fff
+}
+.contact-list > li {
+  margin: 1em;
+}
+.p-font {
+  font-size: 1.09em;
+}
+.copyright {
+  float: right;
+}
+.suggest {
+  float: left;
+  font-size: .9em;
+}
+.heart {
+  font-size: 1.5em;
+  color: #e91e63;
+}
