@@ -87,21 +87,22 @@
       <div class="pure-g">
         <div class="pure-u-1 pure-u-md-1-2">
           <p>Leave me a message, I will contact you back as soon as possible.</p>
-          <form class="pure-form pure-form-stacked">
+          <form class="pure-form pure-form-stacked" action="https://formspree.io/muhajir@hellomuhajir.com" method="POST">
             <fieldset>
               <div class="pure-g">
                 <div class="pure-u-1 pure-u-md-2-5">
                   <label for="name">Name</label>
-                  <input id="name" class="pure-u-1 pure-u-md-23-24" type="text" placeholder="Your Name" required>
+                  <input id="name" class="pure-u-1 pure-u-md-23-24" type="text" placeholder="Your Name" name="name" required>
                 </div>
                 <div class="pure-u-1 pure-u-md-2-5">
                   <label for="email">Email</label>
-                  <input id="email" class="pure-u-1" type="email" placeholder="Your Email" required>
+                  <input id="email" class="pure-u-1" type="email" placeholder="Your Email" name="_replyto" required>
                 </div>
               </div>
+              <input type="hidden" name="_next" value="thanks.html"/>
               <label for="message">Message</label>
               <textarea id="message" class="pure-u-1 pure-u-md-4-5" name="message" placeholder="Enter Message" required></textarea>
-              <button type="submit" class="pure-button button-send">Send</button>
+              <button type="submit" class="pure-button button-send" value="Send">Send</button>
             </fieldset>
           </form>
         </div>
