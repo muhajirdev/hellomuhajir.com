@@ -110,8 +110,13 @@ p {
   min-height : 150px;
 }
 
-.#section-3 .button-send {
+#section-3 .button-send {
   background-color : #95a5a6;
+}
+
+/*About*/
+#section-2 h3 {
+  font-weight: normal;
 }
 
 /*Contact*/
