@@ -17,6 +17,13 @@ p {
   font-family : 'Nunito', sans-serif;
 }
 
+header {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/reserve/6HJtLkJSDqjqlE2NipEu_macbook.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=ae11b864592565253cb92a4b56575ca6);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*Heading*/
 .heading {
   padding : 30% 5%;
