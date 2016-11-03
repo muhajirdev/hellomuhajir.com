@@ -18,7 +18,7 @@ p {
 }
 
 header {
-  height: 100vh;
+  /*height: 100vh;*/
   background-image: url(https://images.unsplash.com/reserve/6HJtLkJSDqjqlE2NipEu_macbook.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=ae11b864592565253cb92a4b56575ca6);
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@ header {
 
 /*Heading*/
 .heading {
-  padding : 30% 5%;
+  padding : 57% 5%;
 }
 
 .heading > h1 {
@@ -46,10 +46,19 @@ header {
   border           : none;
   box-shadow       : none;
 }
-
-@media screen and (min-width: 48em){
+@media screen and (min-width: 425px){
   .heading {
-    padding : 10% 4%;
+    padding : 47% 4%;
+  }
+}
+@media screen and (min-width: 552px){
+  .heading {
+    padding : 38% 4%;
+  }
+}
+@media screen and (min-width: 768px){
+  .heading {
+    padding : 15% 4%;
   }
 
   .heading > h1 {
@@ -60,6 +69,7 @@ header {
     font-size : 2.6em;
   }
 }
+
 
 /*Section*/
 .section-full {
