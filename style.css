@@ -19,7 +19,7 @@ p {
 
 header {
   /*height: 100vh;*/
-  background-image: url(https://images.unsplash.com/reserve/6HJtLkJSDqjqlE2NipEu_macbook.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=ae11b864592565253cb92a4b56575ca6);
+  background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=9d40ed55e2929fabf5e2fd86af5fe5e://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=9d40ed55e2929fabf5e2fd86af5fe5e0);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,6 +27,7 @@ header {
 /*Heading*/
 .heading {
   padding : 57% 5%;
+  background-color: rgba(96,125,139,0.5);
 }
 
 .heading > h1 {
@@ -102,6 +103,11 @@ header {
     margin : 0 70px;
   }
 }
+
+#section-1 {
+  box-shadow: 0 -20px 19px rgb(0, 0, 0), 0 -65px 36px rgba(0,0,0,0.23);
+}
+
 
 /*Form*/
 #section-3 input, #section-3 textarea {
